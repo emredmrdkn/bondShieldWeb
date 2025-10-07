@@ -1,0 +1,282 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "download": "Download",
+    "upload": "Upload",
+    "share": "Share",
+    "copy": "Copy",
+    "print": "Print",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "website": "Website",
+    "social": "Social Media",
+    "contact": "Contact",
+    "about": "About",
+    "features": "Features",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "news": "News",
+    "help": "Help",
+    "support": "Support",
+    "documentation": "Documentation",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies"
+  },
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "pricing": "Pricing",
+    "ai": "AI Assistant",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Digitize Your Property Inspection Processes Completely",
+    "subtitle": "Replace traditional paper-based processes with modern digital solutions with BondShield",
+    "description": "A comprehensive inspection and bond management platform for property owners, tenants, real estate agents, and inspectors.",
+    "cta_primary": "Download from App Store",
+    "cta_secondary": "Watch Demo",
+    "stats": {
+      "inspections": "Completed Inspections",
+      "users": "Active Users",
+      "satisfaction": "Customer Satisfaction"
+    }
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Optimize your property inspection processes with BondShield's comprehensive feature set",
+    "photo_video": {
+      "title": "Photo & Video Recording",
+      "description": "Take high-quality photos and videos during inspections. Automatic metadata addition and secure storage."
+    },
+    "pdf_reports": {
+      "title": "PDF Report Generation",
+      "description": "Professional inspection reports are automatically generated. Protected with digital signature and security features."
+    },
+    "security": {
+      "title": "Secure Authentication",
+      "description": "Maximum security with biometric login, Face ID/Touch ID support, and AES-256 encryption."
+    },
+    "location": {
+      "title": "Location-Based Inspection",
+      "description": "Verify property locations with GPS coordinates. Distance calculation and map integration."
+    },
+    "offline": {
+      "title": "Offline Operation",
+      "description": "Perform inspections without internet connection. Data is automatically synchronized."
+    },
+    "multi_user": {
+      "title": "Multi-User Support",
+      "description": "User management with separate roles for property owners, tenants, and inspectors."
+    }
+  },
+  "platform": {
+    "title": "Comprehensive Property Inspection Platform",
+    "subtitle": "BondShield offers integrated solutions for all stakeholders in the real estate sector",
+    "property_owners": {
+      "title": "Property Owners",
+      "description": "Manage your properties securely, track inspection processes, and communicate transparently with your tenants."
+    },
+    "tenants": {
+      "title": "Tenants",
+      "description": "Record the condition of your rented property, store it securely, and share it when needed."
+    },
+    "agents": {
+      "title": "Real Estate Agents",
+      "description": "Offer professional inspection services to your clients, speed up processes, and gain credibility."
+    },
+    "inspectors": {
+      "title": "Inspectors",
+      "description": "Systematize your inspection processes, automatically generate reports, and increase your work efficiency."
+    }
+  },
+  "how_it_works": {
+    "title": "How Does It Work?",
+    "subtitle": "Complete your inspection process in 4 simple steps with BondShield",
+    "step1": {
+      "title": "Start Inspection",
+      "description": "Select your property and determine the inspection type. Create room list and start the inspection process."
+    },
+    "step2": {
+      "title": "Take Photos & Notes",
+      "description": "Take detailed photos for each room, take notes, and record conditions. Work anywhere with offline support."
+    },
+    "step3": {
+      "title": "Generate Report",
+      "description": "When the inspection is completed, a professional PDF report is automatically generated. Secured with digital signature."
+    },
+    "step4": {
+      "title": "Share & Manage",
+      "description": "Share reports securely, archive them, and use them as reference for future inspections."
+    }
+  },
+  "ai": {
+    "title": "AI-Powered Inspection",
+    "subtitle": "Enhance your property inspection processes with artificial intelligence technology with BondShield AI",
+    "description": "BondShield AI optimizes your property inspection processes with artificial intelligence technology. Make more efficient and accurate inspections with intelligent visual analysis, automatic report generation, and predictive analysis features.",
+    "features": {
+      "visual_analysis": "Intelligent Visual Analysis",
+      "auto_reporting": "Automatic Report Generation",
+      "predictive_analysis": "Predictive Analysis",
+      "ai_assistant": "AI Assistant"
+    },
+    "stats": {
+      "accuracy": "Accuracy Rate",
+      "time_saving": "Time Saving"
+    },
+    "cta_primary": "Meet AI Assistant",
+    "cta_secondary": "AI Features"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Choose the plan that suits your needs. All plans include 14 days free trial.",
+    "basic": {
+      "name": "Basic",
+      "description": "For individual users",
+      "price": "0",
+      "period": "/month",
+      "features": [
+        "5 inspections/month",
+        "Basic report features",
+        "Photo recording",
+        "Email support"
+      ],
+      "cta": "Start Free"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "For small businesses",
+      "price": "99",
+      "period": "/month",
+      "popular": "Most Popular",
+      "features": [
+        "Unlimited inspections",
+        "Advanced report features",
+        "Video recording",
+        "Location integration",
+        "Priority support"
+      ],
+      "cta": "Try 14 Days Free"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For large organizations",
+      "price": "299",
+      "period": "/month",
+      "features": [
+        "Multi-user",
+        "API access",
+        "Custom integrations",
+        "24/7 support",
+        "Custom training"
+      ],
+      "cta": "Contact Us"
+    }
+  },
+  "cta": {
+    "title": "Digitize Your Property Inspection Processes Today",
+    "description": "Replace traditional paper-based processes with modern digital solutions with BondShield. Start now for secure, transparent, and efficient inspection processes.",
+    "cta_primary": "Download from App Store",
+    "cta_secondary": "Request Demo"
+  },
+  "footer": {
+    "description": "Digitize your property inspection processes. Secure, transparent, and efficient solutions.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "security": "Security",
+      "api": "API"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "careers": "Careers",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "support": {
+      "title": "Support",
+      "help": "Help Center",
+      "documentation": "Documentation",
+      "community": "Community",
+      "status": "Status"
+    },
+    "legal": {
+      "copyright": "© 2024 BondShield. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  },
+  "forms": {
+    "contact": {
+      "title": "Contact Form",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred while sending the message."
+    },
+    "lead": {
+      "title": "Request Demo",
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone",
+      "message": "Message",
+      "consent": "I accept the privacy policy",
+      "submit": "Request Demo",
+      "success": "Your demo request has been received! We will contact you as soon as possible.",
+      "error": "An error occurred while sending the demo request."
+    }
+  },
+  "ai_chat": {
+    "title": "AI Assistant",
+    "subtitle": "I'm here to help you with property inspection topics",
+    "placeholder": "Type your question...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "error": "An error occurred. Please try again.",
+    "suggestions": {
+      "title": "Quick Start",
+      "items": [
+        "How to perform property inspection?",
+        "Inspection report preparation process",
+        "How to detect damage?",
+        "Photo shooting techniques"
+      ]
+    }
+  }
+}
