@@ -19,19 +19,66 @@ const csp = [
 ].join("; ");
 
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true,
-    domains: ['localhost', 'bondshield.app'],
+    domains: ['localhost', 'bondshield.app', 'vercel.app'],
     formats: ['image/webp', 'image/avif'],
   },
   experimental: {
     serverComponentsExternalPackages: ['@sentry/nextjs'],
   },
-  // Static export için headers, rewrites ve redirects kaldırıldı
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'origin-when-cross-origin',
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=()',
+          },
+          {
+            key: isDev ? 'Content-Security-Policy-Report-Only' : 'Content-Security-Policy',
+            value: csp
+          },
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=31536000; includeSubDomains'
+          },
+        ],
+      },
+    ]
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/api/v1/:path*',
+        destination: '/api/v1/:path*',
+      },
+    ]
+  },
+  // Redirects for SEO
+  async redirects() {
+    return [
+      {
+        source: '/home',
+        destination: '/',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 module.exports = withNextIntl(nextConfig)
